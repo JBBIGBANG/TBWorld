@@ -48,6 +48,9 @@
   .nav-item {
     height: 80px;
   }
+  .title {
+    margin-right: 5px;
+  }
   
   .nav-links {
     color: #fff;
