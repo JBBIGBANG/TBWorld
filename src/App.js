@@ -8,6 +8,7 @@ import Services from './components/pages/Services';
 import SignUp from './components/pages/SignUp';
 
 import './App.css';
+import Footer from './components/Footer';
 const App = () =>{
   return (
     <>
@@ -20,6 +21,7 @@ const App = () =>{
           <Route path ='/signup' exact element={<SignUp/>} ></Route>
 
         </Routes>
+        <Footer />
       </Router>
     </>
   );
