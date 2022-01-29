@@ -1,10 +1,14 @@
+.cardss {
+    background-image: url("/public/images/img-2.jpg");
+  }
 .container {
     
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+   
 }
 
 .sub_container{
@@ -12,8 +16,10 @@
     margin: 0px 10px 0px 10px;
     height: 500px;
     width: 500px;
-    border: 2px solid black;
+    margin: 5px 0 5px 0;
+    border: 2px solid rgb(230, 225, 225);
     border-radius: 5px;
+    background-color: aliceblue;
 }
 
 .each-div {
@@ -39,9 +45,14 @@
 .file_upload {
     margin: 10px;
 }
+.radio_formatter{
+    margin-top: 10px;
+    margin-left: 120px;
+    align-items: center;
+}
 
 .textarea {
-    height: 300px;
+    height: 240px;
     width: 470px;
     border: 1px solid blueviolet;
     border-radius: 5px;
